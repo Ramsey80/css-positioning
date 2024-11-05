@@ -68,7 +68,20 @@ footer {
     text-align: center;
     padding: 1em;
 }
-
+/* Start Positioning Styles */
+.text-align-center{
+    text-align:center;
+    background-color:aqua;
+ }
+ 
+ .margin-auto > div{
+    margin:auto;
+    width:50%;
+    background-color:beige;
+    text-align:center;
+ }
+ 
+/* End Positioning Styles */
 /* Responsive rules */
 
 /* DESKTOP */
