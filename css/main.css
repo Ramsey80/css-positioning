@@ -80,7 +80,7 @@ footer {
     background-color:beige;
     text-align:center;
  }
- 
+
  /* Allows box to take up full space, ignoring padding/margin */
 * {
     box-sizing: border-box;
@@ -100,6 +100,13 @@ footer {
     display: table;
     clear: both;
   }
+  
+  @media all and (max-width:500px) {
+    .my-column {
+        width: 100%;
+      }
+ }
+ 
  
 /* End Positioning Styles */
 /* Responsive rules */
